@@ -54,6 +54,9 @@ body {
   background-color: #f6d2b8;
   padding: 100px;
   position: relative;
+  padding-inline: 100px;
+  padding-block: 100px;
+  align-items: center;
 }
 
 .picture {
