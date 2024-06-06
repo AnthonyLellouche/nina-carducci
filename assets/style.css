@@ -18,6 +18,10 @@ body {
 	align-items: center;
 }
 
+.top-header h1 {
+	font-size: 28px;
+}
+
 .top-header .name {
 	font-size: 26px;
 }
@@ -84,6 +88,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 16px !important;
 }
 #about-me p {
 	width: 80%;
@@ -101,7 +106,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -242,6 +247,10 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+.nav-item {
+font-size: 20px;
 }
 
 @media all and (max-width: 1180px) {
